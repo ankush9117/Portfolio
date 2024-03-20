@@ -1,0 +1,98 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.parallax {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 50%;
+    max-width: 70%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+    line-height: 150%;
+    font-size: large;
+    color: white;
+    z-index: 1;
+    padding: 3%;
+    border-radius: 2%;
+    backdrop-filter: blur(16px);
+    box-shadow: black 0px 22px 70px 4px;
+}
+
+#project-content .projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-title {
+    width: 20%;
+    text-align: left;
+    font-size: large;
+    margin-right: 2%;
+}
+
+.project-desc {
+    width: 70%;
+    font-size: large;
+}
+
+.patent-title {
+    width: 40%;
+    font-size: large;
+    text-align: left;
+    padding-right: 10%;
+}
+
+.patent-desc {
+    width: 50%;
+}
+
+.parallax1 {
+    background-image: url('resources/bg/img\ 1.jpg');
+}
+
+.parallax2 {
+    background-image: url('resources/bg/img\ 3.jpg');
+}
+
+.parallax3 {
+    background-image: url('resources/bg/img\ 4.jpg');
+}
+
+.parallax4 {
+    background-image: url('resources/bg/img\ 2.jpg');
+}
+
+.parallax5 {
+    background-image: url('resources/bg/img\ 6.jpg');
+}
+
+.parallax6 {
+    background-image: url('resources/bg/bg_6.jpg');
+}
+
+h1 {
+    text-align: center;
+}
+
+.rp {
+    color: black;
+}
+
+strong {
+    color: gold;
+}
